@@ -1,0 +1,39 @@
+body .container p {
+  background-color: #08ff21;
+}
+
+/* Селектор за тегом */
+p {
+  font-weight: bold;
+}
+
+/* Селектор за класом */
+.yellow {
+  background-color: #21db00;
+}
+
+#unique-id-1,
+#unique-id-2,
+#unique-id-3 {
+  text-decoration: underline;
+}
+
+[data-color="red"] {
+  color: red;
+}
+
+div > p {
+  background-color: #fff718;
+}
+
+div p {
+  background-color: #00ffff;
+}
+
+p + span {
+  background-color: #800080;
+}
+
+div.yellow p#unique-id-2[data-color="red"] {
+  background-color: #0000ff;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Селектори</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <p class="yellow" id="unique-id-1" data-color="red">1. Вкладений, з ID, атрибутом, класом - Вага: 1111</p>
+
+        <p class="blue">2. Тег p - Вага: 1</p>
+
+        <div>
+            <p class="green">3. Вкладений - Вага: 101</p>
+        </div>
+
+        <span class="purple">4. Послідовність за p - Вага: 11</span>
+
+        <p class="skyblue">5. Дочірній - Вага: 10</p>
+
+        <div class="yellow">
+            <p class="red" id="unique-id-2">6. З класом, з ID - Вага: 1001</p>
+        </div>
+
+        <p class="red" id="unique-id-3">7. З ID - Вага: 1000</p>
+
+        <p class="red" data-color="red">8. З атрибутом - Вага: 10</p>
+
+        <div>
+            <p class="green">9. Вкладений - Вага: 101</p>
+        </div>
+
+        <p class="blue">10. Тег p - Вага: 1</p>
+    </div>
+</body>
+
+</html>
